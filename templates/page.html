@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+<article>
+    <div class="listing-header">
+        <h1 class="blog-title"><a href="{{ page.permalink }}">{{ page.title }}</a></h1>
+        <div class="date">{{ page.date}}</div>
+    </div>
+    <div class="blog-content">
+        {{ page.content | safe }}
+    </div>
+
+    {% set category = page.taxonomies.categories | first %}
+    {% if  category | length != 0 %}
+    <div class="category">Category: <a href="{{ get_taxonomy_url(kind="categories", name=category) }}"> {{ category }}</a></div>
+    {% endif %}
+
+    <div class="tags">
+        {% for tag in page.taxonomies.tags %}
+        <div class="tag"><a href="{{ get_taxonomy_url(kind="tags", name=tag) }}">{{ tag }}</a></div>
+        {% endfor %}
+    </div>
+</article>
+{% endblock content %}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>{{ config.title }}</title>
+        <link rel="stylesheet" href="/static/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        {% if config.generate_rss %}
+        <link type="application/rss+xml" rel="alternate" href="/rss.xml">
+        {% endif %}
+    </head>
+    <body>
+        <header>
+            <div class="name"><a href="/">👩🏻‍💻 Amy K</a></div>
+            <div>
+                <a href="/categories">categories</a>
+                <a href="/tags">tags</a>
+                <a href="{{ get_url(path="@/pages/about.md") }}">about</a>
+
+                {% if config.generate_rss %}
+                <a href="{{ get_url(path="rss.xml") }}">rss</a>
+                {% endif %}
+            </div>
+        </header>
+        <main>
+            <div>
+                {% block content %} {% endblock %}
+            </div>
+        </main>
+    </body>
+</html>

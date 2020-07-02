@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section>
+    <h1>Tag: {{ term.name }}</h1>
+</section>
+
+{% set pages = term.pages %}
+{% include "list_item.html" %}
+
+{% endblock content %}
