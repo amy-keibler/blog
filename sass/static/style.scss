@@ -150,4 +150,5 @@ pre {
 
 img {
     border: solid 5px $primary-color;
+    width: calc(100% - 10px);
 }
