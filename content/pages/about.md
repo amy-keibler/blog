@@ -11,9 +11,13 @@ template = "about.html"
 
 * Software developer that 💜's Rust, Haskell, and learning new languages
 * Cares about tech & people
-* Likes bikes
-* Likes cross-stitching
+* Enjoys cycling & cross-stitching
 
 ## Things I Recommend
 
 * [The Greater Than Code podcast](https://www.greaterthancode.com/)
+
+## This Blog
+
+* Built using [Zola](https://www.getzola.org/)
+* Hosted via [Netlify](https://www.netlify.com/)
