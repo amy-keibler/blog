@@ -48,7 +48,7 @@ Bryan ends the talk by reflecting on principles and values that he personally ho
 
 Bryan mentions that he values integrity, honesty, and decency as principles and says ["if those aren't one of your principles, thank you for the clarification. I'm never going to work there and nor should you."](https://youtu.be/9QMGAtxUlAc?t=2010) Having publicly stated principles is a helpful way to ensure that the people that are looking for jobs have an understanding if they are compatible with a company. However, this can often be either aspirational at best or misleading at worst. I've found that knowing someone who is already working at a company who can give an insider's perspective can be significantly more useful when making decisions on where to apply. On the other hand, I do look for a values statement that includes specific language around "gender identity and expression", because those statements tend to drive away the sort of person who wouldn't want to work with me in the first place.
 
-From a day-to-day standpoint, I think it is important for leaders in the company to intentionally model behaviors that embody the principles and values of the company. This is impactful because people look to the actions of leaders to see what the company values in practice. The people who get promoted and handed larger responsibilities demonstrate expected career paths more effectively than a checklist of required accomplishments in order to reach the next phase of a career.
+From a day-to-day standpoint, I think it is important for leaders in the company to intentionally model behaviors that embody the principles and values of the company. This is impactful because people look to the actions of leaders to see what the company values in practice. Who get promoted and handed larger responsibilities demonstrates career expectations more effectively than checklists of required accomplishments.
 
 ### When is too late for a company to instill principles and values? Is there such a time?
 
@@ -58,7 +58,7 @@ I wonder if there is a point where the behavior of the team or the company becom
 
 ### Does the value of stating principles scale down to the personal level?
 
-Bryan starts his focus at with the large organization of the USA and then scales it down to the size of single companies. Does this scale down further? I think that it would be an interesting exercise to write out my own principles and then attempt to assess how well or inadequately I live up to them.
+Bryan starts his talk by focusing on a country and then scales it down to the size of single companies. Does this scale down further? I think that it would be an interesting exercise to write out my own principles and then attempt to assess how well or inadequately I live up to them.
 
 ## References and Further Reading
 
