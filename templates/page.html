@@ -1,5 +1,19 @@
 {% extends "base.html" %}
 
+{% block opengraph %}
+<meta property="og:title" content="{{ page.title | addslashes }}" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="{{ page.permalink }}" />
+{% if page.extra.og_image %}
+<meta property="og:image" content="{{ get_url(path = page.extra.og_image) }}" />
+{% else %}
+<meta property="og:image" content="{{ get_url(path = "static/images/cat.png") }}" />
+{% endif %}
+{% if page.extra.og_description %}
+    <meta property="og:description" content="{{ page.extra.og_description | addslashes }}" />
+{% endif %}
+{% endblock opengraph %}
+
 {% block content %}
 <article>
     <div class="listing-header">
