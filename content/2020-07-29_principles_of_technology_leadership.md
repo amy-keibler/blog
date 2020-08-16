@@ -7,6 +7,7 @@ tags = ["leadership", "ethics"]
 
 [extra]
 og_image = "2020-07-29_principles_of_technology_leadership.png"
+og_title = "Talk Review: Principles of Technology Leadership"
 og_description = "In the first entry of my talk review series, I'm going to review Bryan Cantril's \"Principles of Technology Leadership\" talk and hopefully convince you that it's worth your time to watch."
 +++
 
