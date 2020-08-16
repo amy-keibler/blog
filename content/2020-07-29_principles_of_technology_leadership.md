@@ -20,7 +20,7 @@ However, I realize that not everyone is interested in spending between thirty mi
 
 "Principles of Technology Leadership" is a talk given by [Bryan Cantril](https://twitter.com/bcantril).
 
-<iframe width="720" height="405" src="https://www.youtube-nocookie.com/embed/9QMGAtxUlAc?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{ youtube(id="9QMGAtxUlAc") }}
 
 ## The Pitch
 
