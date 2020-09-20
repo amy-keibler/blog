@@ -5,9 +5,10 @@
         <title>{{ config.title }}</title>
         <link rel="stylesheet" href="/static/style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        {% if config.generate_rss %}
-        <link type="application/rss+xml" rel="alternate" href="/rss.xml">
-        {% endif %}
+
+        {% block rss %}
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path="rss.xml", trailing_slash=false) }}">
+        {% endblock %}
 
         <!-- OpenGraph Meta -->
         {% block opengraph %}{% endblock %}
@@ -20,8 +21,8 @@
                 <a href="/tags">tags</a>
                 <a href="{{ get_url(path="@/pages/about.md") }}">about</a>
 
-                {% if config.generate_rss %}
-                <a href="{{ get_url(path="rss.xml") }}">rss</a>
+                {% if config.generate_feed %}
+                <a href="{{ get_url(path="rss.xml", trailing_slash=false) }}">rss</a>
                 {% endif %}
             </div>
         </header>
