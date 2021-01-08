@@ -1,6 +1,6 @@
 +++
 title = "Type Systems as an Expression of Empathy"
-date = 2021-01-03
+date = 2021-01-24
 
 description = "Thinking about type systems from the perspective of empathy for the people affected by your programs."
 
@@ -36,7 +36,7 @@ pub struct User {
 
 The developer reading this code does not need to know the details of how users are registered and managed to understand that a user might not have an email associated with their account. When adding a feature to the application to send users email invoices, the developer would know that they would need to handle a case where the user was redirected to add an email before the invoice was sent. With types codifying our email constraint, future developers are prepared if the user system changes such that a user will always have an email. The type-checker will show them each place where changes are needed to manage a missing email and simplify the logic.
 
-Without that information, the developer would need to rely on documentation that might be out of date, other uses of the data that might not have the same concerns about missing emails, or sources outside of the codebase such as undocumented knowledge from teammates. If these sources of knowledge didn't tip off the developer, an assumption that a user will always have an email could cause a production bug. When the implementation changes in the future, the developer might miss the removal of the logic that handles users without emails. This would further confuse future developers that found places in the codebase that assumed an email would always be present and also places where an email is assumed to be possibly absent. Over time, the amount of work done and the number of people impacted is likely to be significantly higher with the second approach.
+Without that information, the developer would need to rely on documentation that might be out of date, other uses of the data that might not have the same concerns about missing emails, or sources outside of the codebase such as undocumented knowledge from teammates. If these sources of knowledge didn't tip off the developer, an assumption that a user will always have an email could cause a production bug. When the implementation changes in the future, the developer might miss the removal of the logic that handles users without emails. This would further confuse future developers that found places in the codebase that assumed an email would always be present and also places where an email is assumed to be possibly absent. Over time, the amount of work done and the number of people impacted is likely to be significantly higher with this approach compared to the approach with types.
 
 ## Other Approaches
 
