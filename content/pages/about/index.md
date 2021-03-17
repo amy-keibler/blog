@@ -18,6 +18,7 @@ template = "about.html"
 ## Things I Recommend
 
 * [The Greater Than Code podcast](https://www.greaterthancode.com/)
+* [The knurling Sessions microcontroller projects](https://knurling.ferrous-systems.com/sessions/) by [Ferrous Systems](https://ferrous-systems.com/)
 
 ## This Blog
 
