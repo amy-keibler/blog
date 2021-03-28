@@ -11,6 +11,8 @@ template = "about.html"
   <a href="https://twitter.com/amelia_codes"><img src="Twitter_Social_Icon_Circle_Color.svg" alt="My Twitter"></a>
 </div>
 
+Pronouns: <span class="emphasis">she / her</span>
+
 * Software developer that 💜's Rust, Haskell, and learning new languages
 * Cares about tech & people
 * Enjoys cycling & cross-stitching

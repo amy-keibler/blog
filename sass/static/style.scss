@@ -32,6 +32,11 @@ h3, h4, h5, h6 {
     color: $primary-desaturated-color;
 }
 
+span.emphasis {
+    color: $primary-color;
+    font-weight: bold;
+}
+
 body {
     margin: 0;
     background-color: $background-color;
